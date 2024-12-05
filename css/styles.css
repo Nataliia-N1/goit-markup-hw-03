@@ -59,8 +59,8 @@ p {
   color: #2e2f42;
 }
 .header-logo {
-  padding: 24px 0;
-  margin-right: 78px;
+  padding: 24px 0px;
+  margin-right: 76px;
 }
 .page-header {
   border-bottom: 1px solid #e7e9fc;
@@ -128,7 +128,7 @@ button {
   flex-direction: column;
 }
 .herosection-title {
-  width: 496px;
+  max-width: 496px;
   margin-bottom: 48px;
 
   margin-right: auto;
@@ -248,7 +248,7 @@ button {
   background-color: #fff;
 }
 .subtitle {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 .ourteam-image {
@@ -295,15 +295,18 @@ button {
   gap: 48px 24px;
 }
 
+.subtitle-portfolio {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
 /* .ourportfolio-item:nth-child(2) {
   border: 1px solid #e7e9fc;
 } */
 
 .ourportfolio-item {
- 
   width: calc((100% - 5 * 24) / 6);
 }
-
 
 .ourportfolio-image {
   display: block;
@@ -330,10 +333,12 @@ button {
 }
 .footer-logo .logo-part {
   color: #f4f4fd;
+
+}
+.footer-logo{
   display: inline-block;
   margin-bottom: 16px;
 }
-
 .footer-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
