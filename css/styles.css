@@ -174,6 +174,7 @@ button {
 }
 
 /* features */
+
 .features {
   padding: 120px 0px;
 }
@@ -222,8 +223,8 @@ button {
   padding: 120px 0px;
 }
 .ourteam-title {
-  width: 162px;
-  margin: 0 auto;
+  /* width: 162px; */
+  /* margin: 0 auto; */
   margin-bottom: 72px;
 
   font-size: 36px;
@@ -240,7 +241,7 @@ button {
 }
 .ourteam-item {
   border-radius: 0 0 4px 4px;
-  /* padding: 0px 0px 32px 0px; */
+
   width: calc((100% - 3 * 24) / 4);
   /* width: 264px; */
   min-height: 380px;
@@ -278,9 +279,10 @@ button {
   padding: 120px 0px;
 }
 .ourportfolio-title {
-  width: 218px;
 
-  margin: 0 auto;
+  /* width: 218px; */
+  /* margin: 0 auto; */
+  
   margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
